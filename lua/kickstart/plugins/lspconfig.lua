@@ -143,7 +143,12 @@ return {
         --
         -- But for many setups, the LSP (`tsserver`) will work just fine
         tsserver = {},
+
+        -- Tailwind
         tailwindcss = {},
+
+        -- Spell Checker
+        typos_lsp = {},
         --
 
         lua_ls = {
