@@ -90,6 +90,13 @@ P.S. You can delete this when you're done too. It's your config now! :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- Indentation
+local set = vim.opt
+set.tabstop = 2
+set.shiftwidth = 2
+set.softtabstop = 2
+set.expandtab = true
+
 -- For markdown returned from Deno to work
 vim.g.markdown_fenced_languages = {
   'ts=typescript',
