@@ -90,6 +90,10 @@ P.S. You can delete this when you're done too. It's your config now! :)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
+-- For markdown returned from Deno to work
+vim.g.markdown_fenced_languages = {
+  'ts=typescript',
+}
 -- [[ Setting options ]]
 require 'options'
 
