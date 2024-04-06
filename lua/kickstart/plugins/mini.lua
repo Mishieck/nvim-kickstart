@@ -17,6 +17,19 @@ return {
       -- - sr)'  - [S]urround [R]eplace [)] [']
       require('mini.surround').setup()
 
+      -- Sessions
+      vim.opt.sessionoptions:append 'globals'
+
+      require('mini.sessions').setup {
+        hooks = {
+          pre = {
+            write = function()
+              vim.api.nvim_exec_autocmds('User', { pattern = 'SessionSavePre' })
+            end,
+          },
+        },
+      }
+
       -- ... and there is more!
       --  Check out: https://github.com/echasnovski/mini.nvim
     end,
