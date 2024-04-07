@@ -40,6 +40,8 @@ return {
 
     set_keymap('git', create_command(default_direction, 'git'), 'Open git terminal')
 
+    set_keymap('a', ':ToggleTermToggleAll<CR>', 'Toggle all terminal panes')
+
     require('toggleterm').setup {
       shade_terminals = false,
     }
