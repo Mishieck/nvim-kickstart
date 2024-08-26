@@ -137,6 +137,25 @@ return {
         -- clangd = {},
         -- gopls = {},
         -- Python
+        -- JSON
+        jsonls = {
+          settings = {
+            json = {
+              schemas = require('schemastore').json.schemas(),
+              validate = { enable = true },
+            },
+          },
+        },
+        yamlls = {
+          settings = {
+            yaml = {
+              schemaStore = {
+                enable = true,
+              },
+              schemas = require('schemastore').yaml.schemas(),
+            },
+          },
+        },
         pyright = {},
         rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
@@ -187,7 +206,7 @@ return {
             },
           },
         },
-        zls = {}
+        zls = {},
       }
 
       -- Ensure the servers and tools above are installed
