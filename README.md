@@ -12,6 +12,7 @@ continuing.
 - Tabs
 - Integrated terminal
 - Version control
+- Spell checker
 - Language servers: TypeScript, Rust, Zig, Python, Lua, etc.
 
 ## Installation
