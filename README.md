@@ -1,8 +1,8 @@
-# NvCode
+# kickstart.nvim-modular
 
 ## Introduction
 
-This is repo was cloned from [nvim-lua/kickstart.nvim](https://github.com/dam9000/kickstart-modular). I recommend you read the instructions on the source repo before
+This is repo was cloned from [nvim-lua/kickstart.nvim-modular](https://github.com/dam9000/kickstart-modular). I recommend you read the instructions on the source repo before
 continuing.
 
 ## Features
