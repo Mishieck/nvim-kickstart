@@ -9,6 +9,7 @@ continuing.
 
 - Catppuccin theme
 - File tree
+- Status bar
 - Tabs
 - Integrated terminal
 - Version control
@@ -17,7 +18,7 @@ continuing.
 
 ## Screenshots
 
-### Catppuccin Theme
+### Catppuccin Theme, Tabs, and Status Bar
 
 ![theme](https://github.com/user-attachments/assets/5716aa27-5701-4c13-ab11-1e30c3935e4c)
 
