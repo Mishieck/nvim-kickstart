@@ -17,22 +17,26 @@ continuing.
 
 ## Installation
 
+### Linux
+
 You can clone this repo using the following command:
 
 ```sh
-git clone https://github.com/Mishieck/nvcode.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/Mishieck/nvim-kickstart.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
+
+### Windows
 
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/Mishieck/nvcode.git %userprofile%\AppData\Local\nvim\
+git clone https://github.com/Mishieck/nvim-kickstart.git %userprofile%\AppData\Local\nvim\
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/Mishieck/nvcode.git $env:USERPROFILE\AppData\Local\nvim\
+git clone https://github.com/Mishieck/nvim-kickstart.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 
 ### Post Installation
