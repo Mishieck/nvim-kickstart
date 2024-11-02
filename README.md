@@ -17,7 +17,7 @@ continuing.
 
 ## Installation
 
-You can close this repo using the following command:
+You can clone this repo using the following command:
 
 ```sh
 git clone https://github.com/Mishieck/nvcode.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
