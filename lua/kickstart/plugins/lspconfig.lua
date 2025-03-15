@@ -168,18 +168,18 @@ return {
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
-        ts_ls = {
-          on_attach = function(client, bufnr)
-            -- Prevent ts_ls from attaching if it's a Deno project
-            local denoRootDir = nvim_lsp.util.root_pattern('deno.json', 'deno.jsonc')(vim.fn.expand '%:p')
-
-            if denoRootDir then
-              return nil -- Do not attach ts_ls
-            end
-          end,
-          root_dir = nvim_lsp.util.root_pattern 'package.json',
-          single_file_support = false,
-        },
+        -- ts_ls = {
+        --   on_attach = function(client, bufnr)
+        --     -- Prevent ts_ls from attaching if it's a Deno project
+        --     local denoRootDir = nvim_lsp.util.root_pattern('deno.json', 'deno.jsonc')(vim.fn.expand '%:p')
+        --
+        --     if denoRootDir then
+        --       return nil -- Do not attach ts_ls
+        --     end
+        --   end,
+        --   root_dir = nvim_lsp.util.root_pattern 'package.json',
+        --   single_file_support = false,
+        -- },
 
         -- Deno
         denols = {
