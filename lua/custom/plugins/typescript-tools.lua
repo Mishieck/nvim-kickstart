@@ -6,7 +6,7 @@ return {
   opts = {
     on_attach = function(client, bufnr)
       -- Prevent language server from attaching if it's a Deno project
-      local denoRootDir = nvim_lsp.util.root_pattern('deno.json', 'deno.jsonc')(vim.fn.expand '%:p')
+      local denoRootDir = nvim_lsp.util.root_pattern('deno.json', 'deno.jsonc', 'deno.lock')(vim.fn.expand '%:p')
 
       if denoRootDir then
         return nil -- Do not attach language server
